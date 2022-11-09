@@ -42,12 +42,12 @@ header{
 }
 
 .nav_links li a:hover{
-    color: #0088a9;
+    color: rgb(117, 212, 117);
 }
 
 button{
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgba(117, 212, 117, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer; 
@@ -55,5 +55,53 @@ button{
 }
 
 button:hover{
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: rgb(70, 129, 70, 0.8);
+}
+
+
+.texto{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    margin-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    border-radius: 10px;
+    color: whitesmoke;
+    
+}
+
+.texto > a{
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    background-color:#24252a;
+    font-size: 20px;
+    color: rgb(117, 212, 117);
+
+}
+
+
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(117, 212, 117);
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    margin-top: 2%;
+}
+
+.flex-item{
+    height: 10%;
+}
+
+.imagem:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: #3d3e41;
 }
