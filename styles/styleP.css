@@ -226,3 +226,22 @@ tr>td {
     padding-bottom: 28px;
     border-top: 1px solid rgb(162, 209, 162);
 }
+
+
+@media (max-width: 527px){
+    h1{
+        font-size: 100%;
+    }
+    .texto{
+        font-size: 80%;
+    }
+    .texto > a{
+        font-size: 80%;
+    }
+    .imagem{
+        width: 100%;
+    }
+
+    
+
+}
