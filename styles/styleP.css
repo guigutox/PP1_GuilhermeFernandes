@@ -186,10 +186,7 @@ tr>td {
     border-radius: 10px;
 }
 
-#galeria img {
-    @media: (width: 50%);
-    @media: (max-width: 800px);
-}
+
 
 #formulario {
     color: whitesmoke;
@@ -209,6 +206,8 @@ tr>td {
     border: 1px solid rgb(162, 209, 162);
     width: 210px;
     height: 30px;
+    color: whitesmoke;
+
 }
 
 #section-form input[type=email] {
@@ -217,6 +216,7 @@ tr>td {
     border: 1px solid rgb(162, 209, 162);
     width: 210px;
     height: 30px;
+    color: whitesmoke;
 }
 
 .rodape {
@@ -225,6 +225,7 @@ tr>td {
     padding-top: 28px;
     padding-bottom: 28px;
     border-top: 1px solid rgb(162, 209, 162);
+    margin-top: 10%;
 }
 
 
@@ -242,6 +243,42 @@ tr>td {
         width: 100%;
     }
 
+    .rodape {
+        font-size: 55%;
+    }
+    .logo{
+        width: 10%;
+    }
+    #galeria {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 4px;
+    }
     
+    #galeria img {
+    
+        width: 90%;
+        height: 300px;
+        object-fit: cover;
+        margin-top: 8px;
+        padding: 0 4px;
+        border-radius: 0 4px;
+        border-radius: 10px;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+    .flex-container-a > img{
+        width: 60%;
+    }
+
+    .rodape{
+        margin-top: 30%;
+    }
 
 }
