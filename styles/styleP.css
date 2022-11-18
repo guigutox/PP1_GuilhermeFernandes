@@ -12,12 +12,10 @@ body {
 }
 
 
-li,
-a,
-button {
+li,a,button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -29,9 +27,6 @@ header {
     padding: 30px 10%;
 }
 
-.logo {
-    cursor: pointer;
-}
 
 .nav_links {
     list-style-type: none;
@@ -66,7 +61,7 @@ button:hover {
 
 .texto {
     font-family: "Montserrat", sans-serif;
-    font-size: 25px;
+    font-size: 1.4rem;
     margin-top: 1%;
     padding-left: 1%;
     padding-right: 1%;
@@ -80,7 +75,7 @@ button:hover {
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
     background-color: #24252a;
-    font-size: 20px;
+    font-size: 1.4rem;
     color: rgb(117, 212, 117);
 
 }
@@ -120,14 +115,13 @@ h1 {
 
 }
 
-.flex-item-a {}
 
 
 .subtexto {
     text-align: center;
     color: whitesmoke;
     margin-top: 0.5%;
-    font-size: 15px;
+    font-size: 1.3rem;
 }
 
 .tabela-preco {
@@ -187,6 +181,10 @@ tr>td {
 }
 
 
+#galeria img:hover{
+    transform: scale(1.05);
+}
+
 
 #formulario {
     color: whitesmoke;
@@ -229,22 +227,22 @@ tr>td {
 }
 
 
-@media (max-width: 527px){
+@media (max-width: 800px){
     h1{
-        font-size: 100%;
+        font-size: 1rem;
     }
     .texto{
-        font-size: 80%;
+        font-size: 1rem;
     }
     .texto > a{
-        font-size: 80%;
+        font-size: 1rem;
     }
     .imagem{
         width: 100%;
     }
 
     .rodape {
-        font-size: 55%;
+        font-size: 0.7rem;
     }
     .logo{
         width: 10%;
@@ -279,6 +277,11 @@ tr>td {
 
     .rodape{
         margin-top: 30%;
+    }
+
+    li,a,button {
+
+        font-size: 0.9rem;
     }
 
 }
