@@ -30,6 +30,7 @@ header {
 
 .nav_links {
     list-style-type: none;
+
 }
 
 .nav_links li {
@@ -224,6 +225,11 @@ tr>td {
     padding-bottom: 28px;
     border-top: 1px solid rgb(162, 209, 162);
     margin-top: 10%;
+}
+.logo{
+    margin-left: 5%; 
+    width: 7.5%;
+    
 }
 
 
