@@ -31,40 +31,39 @@
     <h1>Formulario para doação</h1>
 
 <section id="section-form">
-    <form action="sucess/index.html" method="post" id="formulario"> 
+    <form action="Agradecimento.html" >
+        <div>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" required><br>
+            <label for="sobrenome">Sobrenome:</label><br>
+            <input type="text" id="sobrenome" required>
+        </div>
+        <div>
+            <label for="email">E-mail: </label><br>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <br><label for="">Valor de doação: </label><br>
+            <input type="radio" name="doacao" id="cinco" required>R$1<br>
+            <input type="radio" name="doacao" id="cinco">R$5 <br>
+            <input type="radio" name="doacao" id="cinco">R$10 <br>
+            <input type="radio" name="doacao" id="cinco">R$20 <br>
+        </div>
 
+        <div>
+            <br>
+           <input type="checkbox" name="termos" id="termo"> <label for="">Concorda em receber emails de atualizações</label>
+        </div>
+
+        <div>
+           <br> <input type="reset" value="Limpar" style="background-color: rgb(117, 212, 117); border-radius: 5px 4px; width: 100px; height: 30px;">
+           <input type="submit" value="Enviar" style="background-color: rgb(117, 212, 117); border-radius: 5px 4px; width: 100px; height: 30px;">
+           
+        </div>
         
-            <div>
-                <label for="nome">Nome:</label><br>
-                <input type="text" id="nome" required><br>
-                <label for="sobrenome">Sobrenome:</label><br>
-                <input type="text" id="sobrenome" required>
-            </div>
-            <div>
-                <label for="email">E-mail: </label><br>
-                <input type="email" id="email">
-            </div>
-            <div>
-                <br><label for="">Valor de doação: </label><br>
-                <input type="radio" name="doacao" id="cinco" required>R$1<br>
-                <input type="radio" name="doacao" id="cinco">R$5 <br>
-                <input type="radio" name="doacao" id="cinco">R$10 <br>
-                <input type="radio" name="doacao" id="cinco">R$20 <br>
-            </div>
 
-            <div>
-                <br>
-               <input type="checkbox" name="termos" id="termo"> <label for="">Concorda em receber emails de atualizações</label>
-            </div>
-
-            <div>
-               <br> <input type="reset" value="Limpar" style="background-color: rgb(117, 212, 117); border-radius: 5px 4px; width: 100px; height: 30px;">
-               <input type="submit" value="Enviar" style="background-color: rgb(117, 212, 117); border-radius: 5px 4px; width: 100px; height: 30px;">
-               
-            </div>
-
-        
     </form>
+
 </section>
 
     <footer class="rodape">
